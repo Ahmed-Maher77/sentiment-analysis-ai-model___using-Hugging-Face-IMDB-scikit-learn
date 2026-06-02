@@ -1,5 +1,7 @@
 # SentimentLens AI
 
+![topics](https://img.shields.io/badge/topics-sentiment--analysis%20%7C%20nlp%20%7C%20transformers%20%7C%20huggingface%20%7C%20imdb%20%7C%20scikit--learn-blue)
+
 Enterprise-grade sentiment analysis for reviews and user text.
 
 ---
