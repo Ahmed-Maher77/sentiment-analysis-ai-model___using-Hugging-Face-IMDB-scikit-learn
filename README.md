@@ -76,6 +76,57 @@ Track accuracy, precision/recall, and F1. Keep a concise evaluation report (for 
 
 ---
 
+## Model & Training
+
+### Pretrained Model
+
+DistilBERT
+
+### Dataset
+
+IMDb Dataset
+
+### Fine-Tuning Process
+
+1. Loaded the pretrained DistilBERT model.
+2. Loaded the IMDb dataset.
+3. Tokenized text reviews.
+4. Added a classification head.
+5. Fine-tuned the model on labeled sentiment data.
+6. Evaluated the model on a test set.
+7. Saved the trained model.
+
+### Output
+
+The model predicts `Positive` or `Negative` for any movie review.
+
+---
+
+## What you accomplished
+
+Your training pipeline was:
+
+```mermaid
+flowchart TD
+	A[IMDb Reviews] --> B[DistilBERT Tokenizer]
+	B --> C[Tokenized Reviews]
+	C --> D[DistilBERT Base Model]
+	D --> E[Fine-Tuning on IMDb]
+	E --> F[Sentiment Classifier]
+	F --> G[Positive / Negative Prediction]
+```
+
+You:
+
+1. Loaded a pretrained DistilBERT model.
+2. Loaded the IMDb sentiment dataset.
+3. Tokenized the reviews.
+4. Fine-tuned the model on labeled reviews.
+5. Saved the trained model.
+6. Tested it using a `sentiment-analysis` pipeline.
+
+---
+
 ## Project structure (example)
 
 - `test.py` — lightweight inference example
