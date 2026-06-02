@@ -25,4 +25,3 @@ transformers_cache/
 !sentiment-model/config.json
 !sentiment-model/tokenizer.json
 !sentiment-model/tokenizer_config.json
-!sentiment-model/training_args.bin
