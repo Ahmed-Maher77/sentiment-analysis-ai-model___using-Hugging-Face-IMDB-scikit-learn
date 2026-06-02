@@ -1,0 +1,6 @@
+transformers>=4.30.0
+torch>=1.13.1
+datasets>=2.6.1
+scikit-learn>=1.2.2
+tokenizers>=0.13.3
+tqdm>=4.65.0
