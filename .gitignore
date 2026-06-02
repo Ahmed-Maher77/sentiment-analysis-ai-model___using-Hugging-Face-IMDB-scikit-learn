@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Editor directories and metadata
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python test / coverage
+.pytest_cache/
+.coverage
+
+# Model artifacts and checkpoints (large files)
+results/
+checkpoint-*/
+**/checkpoint-*/
+sentiment-model/
+*.safetensors
+*.pt
+*.pth
+optimizer.pt
+scheduler.pt
+rng_state.pth
+trainer_state.json
+model.safetensors
+
+# HuggingFace / cache
+transformers_cache/
+cache/
+.cache/
+
+# Optional: lockfiles
+poetry.lock
+Pipfile.lock
